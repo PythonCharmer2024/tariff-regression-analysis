@@ -1,0 +1,25 @@
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:         inflation_rate   R-squared:                       0.015
+Model:                            OLS   Adj. R-squared:                 -0.108
+Method:                 Least Squares   F-statistic:                    0.1252
+Date:                Wed, 09 Apr 2025   Prob (F-statistic):              0.733
+Time:                        12:11:10   Log-Likelihood:                -45.590
+No. Observations:                  10   AIC:                             95.18
+Df Residuals:                       8   BIC:                             95.79
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+const         39.3729     73.616      0.535      0.607    -130.385     209.131
+tariff      -262.2912    741.396     -0.354      0.733   -1971.953    1447.370
+==============================================================================
+Omnibus:                       27.511   Durbin-Watson:                   2.331
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):               21.230
+Skew:                           2.597   Prob(JB):                     2.45e-05
+Kurtosis:                       7.897   Cond. No.                         91.6
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.

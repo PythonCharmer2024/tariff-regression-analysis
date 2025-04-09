@@ -1,0 +1,25 @@
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     manufacturing_output   R-squared:                       0.546
+Model:                              OLS   Adj. R-squared:                  0.489
+Method:                   Least Squares   F-statistic:                     9.618
+Date:                  Wed, 09 Apr 2025   Prob (F-statistic):             0.0146
+Time:                          12:11:10   Log-Likelihood:                -41.622
+No. Observations:                    10   AIC:                             87.24
+Df Residuals:                         8   BIC:                             87.85
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+const        159.3965     49.501      3.220      0.012      45.246     273.547
+tariff     -1546.1392    498.537     -3.101      0.015   -2695.767    -396.512
+==============================================================================
+Omnibus:                        1.288   Durbin-Watson:                   2.370
+Prob(Omnibus):                  0.525   Jarque-Bera (JB):                0.029
+Skew:                          -0.007   Prob(JB):                        0.986
+Kurtosis:                       3.262   Cond. No.                         91.6
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
