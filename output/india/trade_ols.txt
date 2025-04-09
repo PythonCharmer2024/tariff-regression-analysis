@@ -1,0 +1,25 @@
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:          trade_deficit   R-squared:                       0.045
+Model:                            OLS   Adj. R-squared:                 -0.062
+Method:                 Least Squares   F-statistic:                    0.4198
+Date:                Wed, 09 Apr 2025   Prob (F-statistic):              0.533
+Time:                        10:51:35   Log-Likelihood:                -16.834
+No. Observations:                  11   AIC:                             37.67
+Df Residuals:                       9   BIC:                             38.46
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+const         -1.9068      0.700     -2.724      0.023      -3.491      -0.323
+tariff        -0.0732      0.113     -0.648      0.533      -0.329       0.182
+==============================================================================
+Omnibus:                        1.369   Durbin-Watson:                   1.960
+Prob(Omnibus):                  0.504   Jarque-Bera (JB):                0.973
+Skew:                           0.648   Prob(JB):                        0.615
+Kurtosis:                       2.332   Cond. No.                         11.9
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
